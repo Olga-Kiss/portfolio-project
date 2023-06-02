@@ -4,6 +4,37 @@ h1 {
   font-weight: bold;
 }
 p {
-    font-family: font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
+}
+img {
+    max-width: 150px;
+    margin: 20px 250px;
+    display: block;
+
+}
+.myself {
+    background: rgba(202, 167, 173, 0.352);
+    text-align: left;
+    padding: 80px 20px;
+}
+.myself p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.myself h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+}
+.btn-branding {
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
 }
