@@ -1,8 +1,8 @@
 :root {
   --branding-color: rgb(3, 103, 116);
   --secondary-color: rgba(202, 167, 173, 0.352);
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --default-font-family: "Geologica", sans-serif;
+  --heading-font-family: "Rubik", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
@@ -12,17 +12,20 @@ h2,
 h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
+  color: rgb(90, 89, 89);
 }
 h1 {
   font-size: 65px;
 }
 p {
   font-weight: normal;
+  color: rgb(90, 89, 89);
 }
 img {
-  max-width: 200px;
-  margin: 40px 200px;
   display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 4px;
 }
 .myself {
   background: var(--secondary-color);
@@ -37,7 +40,7 @@ img {
 .myself h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-  line-height: 2;
+
   font-size: 24px;
 }
 .btn-branding {
@@ -45,6 +48,5 @@ img {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 27px;
   padding: 12px 20px;
 }
