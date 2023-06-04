@@ -18,7 +18,7 @@ h1 {
   font-size: 65px;
 }
 h2 {
-  font-size: 65px;
+  font-size: 60px;
 }
 p {
   font-weight: normal;
@@ -61,8 +61,12 @@ img {
   padding: 12px 20px;
 }
 .project-description {
-  padding: 0 60px;
+  padding: 0 40px;
 }
+.project-description p {
+  text-align: justify;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -74,5 +78,13 @@ img {
   .heading {
     padding: 0;
     text-align: center;
+  }
+}
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 58px;
+  }
+  h2 {
+    font-size: 50px;
   }
 }
