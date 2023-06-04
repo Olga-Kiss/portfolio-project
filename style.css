@@ -17,9 +17,14 @@ h3 {
 h1 {
   font-size: 65px;
 }
+h2 {
+  font-size: 65px;
+}
 p {
   font-weight: normal;
   color: rgb(90, 89, 89);
+  font-size: 16px;
+  line-height: 1.5;
 }
 img {
   display: block;
@@ -27,20 +32,18 @@ img {
   max-width: 200px;
   border-radius: 4px;
 }
-.myself {
+.hero {
   background: var(--secondary-color);
-  text-align: left;
   padding: 50px 20px;
 }
-.myself p {
+.hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
-.myself h2 {
+.hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
-
   font-size: 24px;
 }
 .btn-branding {
@@ -49,4 +52,27 @@ img {
   color: white;
   font-size: 18px;
   padding: 12px 20px;
+}
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+.project-description {
+  padding: 0 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .project-description,
+  .heading {
+    padding: 0;
+    text-align: center;
+  }
 }
