@@ -88,7 +88,33 @@ img {
 .project-description p {
   text-align: justify;
 }
+.logo {
+  max-width: 80px;
+  margin: 0 !important;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #40423e;
+  transition: all 150ms ease-in-out;
+}
 
+nav a:hover,
+nav li.active a {
+  color: rgb(84, 170, 4);
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -111,6 +137,9 @@ img {
 
   .project-desciption {
     padding: 0;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
 @media (max-width: 1400px) {
