@@ -1,6 +1,7 @@
 :root {
   --branding-color: rgb(45, 91, 2);
   --secondary-color: rgba(202, 167, 173, 0.352);
+  --third-color: rgb(84, 170, 4);
   --default-font-family: "Geologica", sans-serif;
   --heading-font-family: "Rubik", sans-serif;
 }
@@ -34,11 +35,12 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 200px;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 .hero {
   background: var(--secondary-color);
   padding: 50px 20px;
+  border-radius: 10px;
 }
 .hero p {
   font-size: 36px;
@@ -111,6 +113,7 @@ nav li {
   list-style: none;
   line-height: 40px;
   margin-left: 15px;
+  font-size: 20px;
 }
 nav a {
   text-decoration: none;
@@ -120,7 +123,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: rgb(84, 170, 4);
+  color: var(--third-color);
 }
 footer {
   margin: 60px 0;
@@ -139,7 +142,7 @@ footer .email-link {
   font-size: 24px;
 }
 footer .email-link:hover {
-  color: rgb(84, 170, 4);
+  color: var(--third-color);
 }
 footer .social-links a {
   margin: 0 20px;
